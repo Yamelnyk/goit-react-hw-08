@@ -21,7 +21,7 @@ export default function ContactPage() {
   return (
     <>
       <div>
-        <h2>Phonebook </h2>
+        <h2 className={css.title}>Phonebook </h2>
         <ContactForm />
         <SearchBox />
         {isLoading && <Loader>Loading message</Loader>}
